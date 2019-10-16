@@ -33,3 +33,6 @@ require_once 'inc/acf-options.php';
 
 // Add GraphQL resolvers.
 require_once 'inc/graphql/resolvers.php';
+
+// Add Custom Post Type
+require_once 'inc/custom-types/product.php';

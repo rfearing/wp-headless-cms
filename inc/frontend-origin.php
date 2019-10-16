@@ -11,5 +11,6 @@
  */
 function get_frontend_origin() {
     $client = getenv('CLIENT_ORIGIN');
+    $client = $client ? $client : 'http://localhost:3000';
     return $client;
 }
